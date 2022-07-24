@@ -88,6 +88,7 @@ h4 {
     width: 54%;
     display: inline-block;
 }
+
 .intro-img, .vector-img, .vector-dot {
     position: absolute;
 }
@@ -101,7 +102,15 @@ h4 {
 }
 
 .intro-img{
-    height: 90vh;
+    position: absolute;
+    height: 85vh;
     width: 50vw;
-    left: -5rem;
+    left: 1rem;
+}
+.backcover{
+    position: absolute;
+    top: -22rem;
+    left: 0rem;
+    z-index: -1;
+    height: 120vh;
 }
