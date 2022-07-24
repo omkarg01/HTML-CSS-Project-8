@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --blue: #3E4794;
+    --purple: #965CF2;
+    --pink: #FF8ADC;
+    --light-purple: #CBADF8;
+    --ligth-pink: #FFC4ED;
+}
+
+.main-div {
+    width: 80vw;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+button {
+    border-radius: 5rem;
+    padding: 0.2rem 1rem;
+    border: none;
+    background: linear-gradient(90deg, var(--purple), var(--pink));
+    color: white;
+    font-family: Roboto;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+nav {
+    display: flex;
+    /* background-color: #CBADF8; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+nav>img {
+    height: 3.5rem;
+}
+
+.nav-items {
+    display: flex;
+    gap: 4rem;
+    font-size: 1.6rem;
+    color: var(--blue);
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.intro-section{
+    display: flex;
+}
+.left-section {
+    width: 40%;
+    margin-top: 13rem;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 7rem;
+    color: var(--blue);
+}
+
+h4 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #656989;
+    margin: 5rem 0;
+    width: 65%;
+    line-height: 2.5rem;
+}
+
+.learn-more-btn{
+    font-size: 2.5rem;
+    padding: 1rem 2.5rem;
+}
+.imgs-div{
+    position: relative;
+    width: 54%;
+    display: inline-block;
+}
+.intro-img, .vector-img, .vector-dot {
+    position: absolute;
+}
+.vector-img{
+    top: 50rem;
+}
+
+.vector-dot{
+    top: 50rem;
+    left: 5rem;
+}
+
+.intro-img{
+    height: 90vh;
+    width: 50vw;
+    left: -5rem;
+}
