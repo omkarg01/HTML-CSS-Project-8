@@ -5,7 +5,7 @@
 ![hitesh choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
 ![HTML & CSS](https://img.shields.io/badge/HTML-CSS-orange)
 
-## Project 8 [Live Link](https://62e2bab79030634310993ee6--famous-praline-5d7109.netlify.app/)
+## Project 8 [Live Link](https://web-design-og.netlify.app)
 
 -   Skills Gained in this project
     -   Learned about linear-gradient property for styling elements.
